@@ -1,0 +1,64 @@
+/* Pseudo-elements:: The elements that are not in DOM tree,
+ these are keywords added to the selector to style specific parts of the element without adding additonal html .
+Eg : ::before and ::after */
+
+/* Pseudo Classes :  
+Eg :: 
+    :active
+    :hover
+    :visited
+    :focus */
+
+/* Nodejs: Run time Enviroment : Here we write backend scripts*/
+/* MangoDB: NoSQL Database, uses JSON like document*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+/* 
+#result{
+    position: relative;
+    top:300px;
+    right:190px;
+    color:blue;
+    background-color: aqua;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
+
