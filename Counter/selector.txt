@@ -1,0 +1,14 @@
+Select Elements from DOM using::
+
+1 - document.getElementByid('id') - Since id's are unique , this method
+returns returns a single DOM Elements
+
+2 - document.getElementByClassName('class')
+
+
+3 - document.getElementByTagName('Tag')
+
+
+4 - document.querySelector(' ')
+
+5 - document.querySelectorAll(' ')

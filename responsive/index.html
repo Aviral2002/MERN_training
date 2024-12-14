@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corner Divs</title>
+    <style>
+        .parent {
+            position: relative;
+            height: 50vh;
+            width: 50vw;
+            background-color: lightgrey;
+        }
+
+        .child {
+            position: absolute;     
+        }
+
+        .topLeft {
+            top: 0;
+            left: 0;
+            height: 50px;
+            width: 50px;
+            background-color: darkred;
+        }
+
+        .topRight {
+            top: 0;
+            right: 0;
+            height: 70px;
+            width: 70px;
+            background-color: rgb(18, 217, 231);
+        }
+
+        .bottomLeft {
+            bottom: 0;
+            left: 0;
+            height: 90px;
+            width: 90px;
+            background-color: rgb(211, 13, 129);
+        }
+
+        .bottomRight {
+            bottom: 0;
+            right: 0;
+            height: 110px;
+            width: 110px;
+            background-color: rgb(234, 242, 16);
+        }
+
+        @media (max-width: 600px) {
+            .topLeft, .topRight, .bottomLeft, .bottomRight {
+                position: static; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child topLeft"></div>
+        <div class="child topRight"></div>
+        <div class="child bottomLeft"></div>
+        <div class="child bottomRight"></div>
+    </div>
+</body>
+</html>

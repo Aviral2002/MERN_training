@@ -1,0 +1,5 @@
+Difference b/w forEach and map
+
+In map a new array is created to store the transformed elements while 
+in forEach the transformed elements are stored in the orginal array
+

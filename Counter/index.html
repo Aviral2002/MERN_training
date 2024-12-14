@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listners</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="parent1">
+<div class="input_div">
+    <label for="txt">Enter Text</label>
+    <input type="text" id="txt" onkeydown="down()" onkeyup="up()">
+    <p id="para1"></p>
+    <button>Submit</button>
+</div>
+<div class="container">
+    <div id="div1">Hello World</div>
+    <button onClick = "handleColor()">Change Color</button>
+    <button onClick = "handleDisplay()">Remove Content</button> 
+</div>
+    <div class="counter">
+        <p id="para2">The value is 0</p>
+    <button onClick="handleAddClick()">+</button>
+    <button onClick="handleMinusClick()">-</button>
+    <button onClick="handleResetClick()">Reset</button>
+</div>
+</div>
+<div class="parent2">
+    <div id="hover_over">
+        <p id="para3">
+        Hover
+        </p>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
